@@ -1,7 +1,7 @@
 timeout: 1200s
 substitutions:
   _REGION: us-west1
-  _CLUSTER:  veluag-dev-cluster
+  _CLUSTER:  veluag-dev
   _PROJECTID: vlaa-dev
 steps:
   - name: gcr.io/cloud-builders/kubectl
